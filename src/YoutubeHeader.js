@@ -16,7 +16,8 @@ function YoutubeHeader() {
             
             <nav className='flex flex-row items-center justify-between mx-3' >
               <div className="logo flex items-center m-2">
-                <div className=" m-3 text-xl">
+         
+                <div className=" m-3 text-xl font-extralight">
                   <FaBars/>
                 </div>
                 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/YouTube_Logo_2017.svg/2560px-YouTube_Logo_2017.svg.png" alt="#" className=" h-6 w-25"/> 
@@ -24,7 +25,7 @@ function YoutubeHeader() {
               <div className=" ">
                  <from className="Form flex flex-row items-center justify-end h-11 w-auto border-none">
                    <input type="search" id="search" name="search" placeholder='Search' className='w-96 h-11  border-2 px-2 '/>
-                    {/* <MdClear  className='w-8'/> */}
+                    
                     <button type="button " className='flex flex-row items-center justify-center w-16 h-11  border-2 bg-gray-50' ><AiOutlineSearch className=' h-6 w-7'/></button>
                     <MdMic className='mic m-2 h-11 w-11  rounded-full bg-gray-50 p-2.5'/>
                  </from>
