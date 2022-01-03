@@ -9,18 +9,18 @@ function YoutubeBottemHeader(_props) {
          <div className="Genres flex  my-2">
          <Genres Genres="All"/>
          <Genres Genres="Music"/>
-         <Genres Genres="Css"/>
+         <Genres Genres="CSS"/>
          <Genres Genres="Comedies"/>
-         <Genres Genres="Music"/>
-         <Genres Genres="Music"/>
-         <Genres Genres="Music"/>
-         <Genres Genres="Music"/>
-         <Genres Genres="Music"/>
-         <Genres Genres="Music"/>
-         <Genres Genres="Music"/>
-         <Genres Genres="Music"/> 
-         <Genres Genres="Music"/>
-         <Genres Genres="Music"/> <Genres Genres="Music"/>
+         <Genres Genres="Live"/>
+         <Genres Genres="History"/>
+         <Genres Genres="T-series"/>
+         <Genres Genres="Cryptocurreny"/>
+         <Genres Genres="Stock market"/>
+         <Genres Genres="Bollywood Music"/>
+         <Genres Genres="Mixes"/>
+         <Genres Genres="Java script"/> 
+         <Genres Genres="Gaming"/>
+         <Genres Genres="Movies"/> <Genres Genres="Music"/>
          <Genres Genres="Music"/>
          <Genres Genres="Music"/> <Genres Genres="Music"/>
          
