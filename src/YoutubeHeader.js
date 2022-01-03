@@ -2,7 +2,6 @@ import logo from './logo.svg';
 import './App.css';
 import React from 'react';
 import { FaBars } from 'react-icons/fa';
-import { MdClear } from 'react-icons/md';
 import { AiOutlineSearch } from 'react-icons/ai';
 import { MdMic } from 'react-icons/md';
 import { GrApps } from 'react-icons/gr';
@@ -11,10 +10,10 @@ import { IoIosContact } from 'react-icons/io';
 
 function YoutubeHeader() {
   return (
-    <div className="header">
+    <div className="header  bg-white h-16 ">
       <header>
             
-            <nav className='flex flex-row items-center justify-between mx-3' >
+            <nav className='flex flex-row items-center justify-between mx-3 ' >
               <div className="logo flex items-center m-2">
          
                 <div className=" m-3 text-xl font-extralight">

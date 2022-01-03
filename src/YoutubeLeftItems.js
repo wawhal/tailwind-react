@@ -6,7 +6,7 @@ import { MdHomeFilled } from 'react-icons/md';
 function YoutubeLeftItems(_props) {
   return (
     <div className="Container w-24 flex items-center
-    justify-center max-h-screen flex-col mb-8 ">
+    justify-center max-h-screen flex-col mb-8  bg-white">
         <div className='icon m-auto text-xl py-1'> 
            {_props.icon}</div>
             
