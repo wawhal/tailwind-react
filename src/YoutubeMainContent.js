@@ -4,12 +4,9 @@ import YoutubeLeft from './YoutubeLeft';
 
 function YoutubeMainContent() {
   return (
-    <div className="Container flex">
-     
-       
+    <div className="Container flex">       
        <YoutubeLeft/>
        <YoutubeRight/>
-      
     </div>
   );
 }
