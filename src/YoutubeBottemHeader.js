@@ -20,9 +20,9 @@ function YoutubeBottemHeader(_props) {
          <Genres Genres="Mixes"/>
          <Genres Genres="Java script"/> 
          <Genres Genres="Gaming"/>
-         <Genres Genres="Movies"/> <Genres Genres="Music"/>
+         <Genres Genres="Movies"/>
          <Genres Genres="Music"/>
-         <Genres Genres="Music"/> <Genres Genres="Music"/>
+         
          
          </div>
 
