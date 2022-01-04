@@ -3,7 +3,7 @@ import YoutubeBottemHeader from './YoutubeBottemHeader';
 
 function YoutubeRightVideo(_props) {
   return (
-    <div className="Container flex flex-col  h-80 mx-2 my-2">
+    <div className="Container flex flex-col  ">
         <div className=' flex my-2'>
            {_props.video}
         </div>

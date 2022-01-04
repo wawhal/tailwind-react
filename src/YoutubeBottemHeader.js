@@ -5,26 +5,55 @@ import Genres from './Genres';
 
 function YoutubeBottemHeader(_props) {
     return (
-     <div className="Genres flex  w-full bg-white sticky  top-16 -2">
-         <div className="Genres flex  my-2">
-         <Genres Genres="All"/>
-         <Genres Genres="Music"/>
-         <Genres Genres="CSS"/>
-         <Genres Genres="Comedies"/>
-         <Genres Genres="Live"/>
-         <Genres Genres="History"/>
-         <Genres Genres="T-series"/>
-         <Genres Genres="Cryptocurreny"/>
-         <Genres Genres="Stock market"/>
-         <Genres Genres="Bollywood Music"/>
-         <Genres Genres="Mixes"/>
-         <Genres Genres="Java script"/> 
-         <Genres Genres="Gaming"/>
-         <Genres Genres="Movies"/>
-         <Genres Genres="Music"/>
+     <div className="Genres flex items-center  w-full bg-white sticky  top-16 ">
+         <div className="Genres flex   mx-1.5">
+            <Genres Genres="All"/>
+         </div>  
+         <div className="Genres flex   mx-1.5">
+           <Genres Genres="Music"/>
+         </div>
+         <div className="Genres flex   mx-1.5">
+           <Genres Genres="CSS"/>
+         </div>
+         <div className="Genres flex   mx-1.5">
+           <Genres Genres="Comedies"/>
+         </div>
+         <div className="Genres flex   mx-1.5">
+           <Genres Genres="Live"/>
+         </div>
+         <div className="Genres flex    mx-1.5">
+           <Genres Genres="History"/>
+         </div>
+         <div className="Genres flex    mx-1.5">
+          <Genres Genres="T-series"/>
+         </div>
+         <div className="Genres flex    mx-1.5">
+          <Genres Genres="Cryptocurreny"/>
+         </div>
+         <div className="Genres flex    mx-1.5">
+          <Genres Genres="Stock market"/>
+         </div>
+         <div className="Genres flex    mx-1.5">
+          <Genres Genres="Bollywood Music"/>
+         </div>
+         <div className="Genres flex    mx-1.5">
+          <Genres Genres="Mixes"/>
+         </div>
          
+         <div className="Genres flex    mx-1.5">
+         <Genres Genres="Java script"/> 
+         </div>
+         <div className="Genres flex    mx-1.5">
+         <Genres Genres="Gaming"/>
+         </div>
+         <div className="Genres flex    mx-1.5">
+           <Genres Genres="Movies"/>
+         </div>
+         <div className="Genres flex    mx-1.5">
+         <Genres Genres="Music"/>
          
          </div>
+        
 
      </div>
     );
