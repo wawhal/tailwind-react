@@ -5,7 +5,7 @@ import Genres from './Genres';
 
 function YoutubeBottemHeader(_props) {
     return (
-     <div className="Genres flex   w-full bg-whitec sticky  top-16 -2">
+     <div className="Genres flex  w-full bg-white sticky  top-16 -2">
          <div className="Genres flex  my-2">
          <Genres Genres="All"/>
          <Genres Genres="Music"/>

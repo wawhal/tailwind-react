@@ -9,11 +9,11 @@ function YoutubeRight() {
   return (
     <div className="Container  ">
        
-        <div className='bg-white h-16 sticky  top-16 z-10 border-y'>
+        <div className='bg-white h-16 sticky border-gray  top-16 z-10 border-y'>
           <YoutubeBottemHeader/>
          </div>
        
-       <div className="Container flex flex-wrap bg-zinc-100  w-fit ">
+       <div className="Container flex flex-wrap bg-zinc-100 bg-yt-video-bg w-fit ">
          {
            videos.map((props) => {
              return (

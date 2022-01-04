@@ -12,10 +12,10 @@ function YoutubeRightVideo(_props) {
                  {_props.img}
             </div>
             <div className='  ml-2 w-72'>
-            <div className='content-text text-lg font-medium '>
+            <div className='content-text text-lg font-medium  '>
                 <h3> {_props.title}</h3>
             </div>
-            <div className='content-text text-sm font-medium text-gray-500'>
+            <div className='content-text text-xs font-medium text-gray-text'>
                <p> {_props.channelName}</p>
 
             

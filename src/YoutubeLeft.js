@@ -8,7 +8,7 @@ import { MdHistory} from 'react-icons/md';
 
 function YoutubeLeft() {
   return (
-    <div className=' bg-white w-24 sticky h-full left-0  top-16 z-10 '>
+    <div className=' bg-white w-24 text-yt-text-color sticky h-full left-0  top-16 z-10 '>
         <YoutubeLeftItems
          icon={<AiFillHome/>}
          title="Home"/>
