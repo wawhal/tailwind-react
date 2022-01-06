@@ -23,7 +23,7 @@ function YoutubeHeader() {
               </div>
               <div className=" ">
                  <from className="Form flex flex-row items-center justify-end h-11 w-auto border-none">
-                   <input type="search" id="search" name="search" placeholder='Search' className='w-6xl h-10 border-gray   border px-2'/>
+                   <input type="search" id="search" name="search" placeholder='Search' className='w-6xl h-11 border-gray outline-0  border px-2'/>
                     
                     <button type="button " className='flex flex-row items-center justify-center w-16 h-10 border-gray  border bg-gray-50' ><AiOutlineSearch className=' h-6 w-7'/></button>
                     <MdMic className='mic m-2 h-11 w-11  rounded-full bg-yt-genres p-2.5'/>

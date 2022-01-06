@@ -9,7 +9,7 @@ function YoutubeRight() {
   return (
     <div className="Container  ">
        
-        <div className='flex items-center bg-white h-16 sticky border-gray  top-16 z-10 border-y'>
+        <div className='flex  bg-white h-16 sticky border-gray  top-16 z-10 border-y'>
           <YoutubeBottemHeader/>
          </div>
        
